@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./public/icons/nav1/logo.svg"
+      type="image/x-icon"
+    />
+    <title>Groceyish</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="border-nav">
+        <nav class="flex nav-upper container">
+          <!-- -------logo-------- -->
+          <div class="flex gap-sm">
+            <img src="./public/icons/nav1/logo.svg" alt="" />
+            <div>
+              <h1 class="text-primary nav-logo-header">Groceyish</h1>
+              <h3 class="nav-logo-text">GROCERY</h3>
+            </div>
+          </div>
+          <!-- -------logo-------- -->
+          <!-- -------search------- -->
+          <div class="nav-upper-search flex">
+            <select class="nav-upper-select" name="" id="">
+              <option value="all categories">All Categories</option>
+            </select>
+            <span class="nav-upper-line"></span>
+            <input
+              class="nav-upper-input"
+              type="text"
+              name=""
+              id=""
+              placeholder="Search for items..."
+            />
+            <button class="nav-upper-btn">
+              <img src="./public/icons/nav1/search.svg" alt="" />
+            </button>
+          </div>
+          <!-- -------search------- -->
+          <!-- -------wishlist------- -->
+          <div class="center-xy gap-m">
+            <div class="relative">
+              <span class="badge center-xy">4</span>
+              <img src="./public/icons/nav1/heart.svg" alt="" />
+            </div>
+            <h3 class="nav-upper-wish-cart-text">Wishlist</h3>
+          </div>
+          <!-- -------wishlist------- -->
+          <!-- -------my cart------- -->
+          <div class="center-xy gap-m">
+            <div class="relative">
+              <span class="badge center-xy">1</span>
+              <img src="./public/icons/nav1/shopping-cart.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="noWrap nav-upper-wish-cart-text">My cart</h3>
+              <h5 class="text-primary">$21</h5>
+            </div>
+
+            <img src="./public/icons/nav1/down.svg" alt="" />
+          </div>
+          <!-- -------my cart------- -->
+          <!-- -------avatar------- -->
+          <div class="center-xy gap-m">
+            <img src="./public/icons/nav1/user.svg" alt="" />
+            <h3 class="noWrap nav-upper-username">Faisal Ahmed</h3>
+            <img src="./public/icons/nav1/down.svg" alt="" />
+          </div>
+          <!-- -------avatar------- -->
+        </nav>
+      </section>
+      <!-- -------nav Lower------- -->
+      <nav class="nav-lower flex space-between container">
+        <div>
+          <button class="btn-primary center-xy gap-sm border-radius">
+            <img src="./public/icons/nav2/layout-grid.png" alt="" /> Brows All
+            Categories
+          </button>
+        </div>
+        <div class="center-xy gap-L">
+          <div class="nav-lower-options center-xy gap-sm">
+            <img src="./public/icons/nav2/house.svg" alt="" />
+            <h3 class="text-primary">Home</h3>
+          </div>
+          <div class="nav-lower-options center-xy gap-sm">
+            <img src="./public/icons/nav2/hot deals 1.svg" alt="" />
+            <h3>Hot deals</h3>
+          </div>
+          <div class="nav-lower-options center-xy gap-sm">
+            <img src="./public/icons/nav2/percent.svg" alt="" />
+            <h3>Promotions</h3>
+          </div>
+          <div class="nav-lower-options center-xy gap-sm">
+            <img src="./public/icons/nav2/megaphone.svg" alt="" />
+            <h3>New products</h3>
+          </div>
+        </div>
+        <div class="center-xy gap-sm nav-upper-contact">
+          <img src="./public/icons/nav2/Call.svg" alt="" />
+          <h3 class="text-primary">1233-7777</h3>
+          <h5>24/7 support center</h5>
+        </div>
+      </nav>
+      <!-- -------nav Lower------- -->
+      <!-- ---------hero section-------- -->
+      <section class="hero relative">
+        <div class="container flex space-between">
+          <div class="hero-text-container">
+            <h1 class="hero-header">
+              Don’t miss our daily <br />amazing deals.
+            </h1>
+            <h4 class="hero-subheader">
+              Save up to 60% off on your first order
+            </h4>
+            <div class="center-y hero-btn">
+              <img src="./public/image/header/send.svg" alt="" />
+              <input
+                class="hero-input"
+                type="email"
+                placeholder="Enter your email address"
+              />
+              <button class="hero-btn-subscribe">Subscribe</button>
+            </div>
+          </div>
+
+          <img class="hero-img" src="./public/image/header/fruits.png" alt="" />
+        </div>
+      </section>
+      <!-- ---------hero section-------- -->
+    </header>
+    <main>
+      <!-- -------------section 1---------------- -->
+      <section class="section-padding">
+        <!-- -------------categories header-------------- -->
+        <div class="flex space-between container">
+          <h3 class="categories-header">Explore Categories</h3>
+          <ul class="center-y gap-L font-m">
+            <li class="text-primary">All</li>
+            <li>Vegetables</li>
+            <li>Fruits</li>
+            <li>Coffee & teas</li>
+            <li>Meat</li>
+          </ul>
+        </div>
+
+        <div class="center-xy categories-container gap-mm">
+          <!-- -------------categories header-------------- -->
+          <!-- -------------categories item-------------- -->
+          <img
+            class="arrow"
+            src="./public/icons/common/arrow-left.svg"
+            alt=""
+          />
+          <div class="categories text-align item1">
+            <img
+              src="./public/image/section1/product 3.png"
+              alt=""
+              class="categories-image"
+            />
+            <h3 class="categories-name">Peach</h3>
+            <h5 class="categories-quantities">20 Items</h5>
+          </div>
+          <div class="categories text-align item2">
+            <img
+              src="./public/image/section1/product 4.png"
+              alt=""
+              class="categories-image"
+            />
+            <h3 class="categories-name">Vegetables</h3>
+            <h5 class="categories-quantities">220 Items</h5>
+          </div>
+          <div class="categories text-align item3">
+            <img
+              src="./public/image/section1/product  5.png"
+              alt=""
+              class="categories-image"
+            />
+            <h3 class="categories-name">strawberry</h3>
+            <h5 class="categories-quantities">10 Items</h5>
+          </div>
+          <div class="categories text-align item4">
+            <img
+              src="./public/image/section1/product  6.png"
+              alt=""
+              class="categories-image"
+            />
+            <h3 class="categories-name">Apple</h3>
+            <h5 class="categories-quantities">40 Items</h5>
+          </div>
+          <div class="categories text-align item5">
+            <img
+              src="./public/image/section1/product 7.png"
+              alt=""
+              class="categories-image"
+            />
+            <h3 class="categories-name">Orange</h3>
+            <h5 class="categories-quantities">23 Items</h5>
+          </div>
+          <div class="categories text-align item6">
+            <img
+              src="./public/image/section1/product  8.png"
+              alt=""
+              class="categories-image"
+            />
+            <h3 class="categories-name">Potato</h3>
+            <h5 class="categories-quantities">3 Items</h5>
+          </div>
+          <div class="categories text-align item7">
+            <img
+              src="./public/image/section1/product 9.png"
+              alt=""
+              class="categories-image"
+            />
+            <h3 class="categories-name">Carrot</h3>
+            <h5 class="categories-quantities">9 Items</h5>
+          </div>
+          <img
+            class="arrow"
+            src="./public/icons/common/arrow-right.svg"
+            alt=""
+          />
+          <!-- -------------categories item-------------- -->
+        </div>
+      </section>
+      <!-- -------------section 2---------------- -->
+      <!-- -------------Featured Products header---------------- -->
+      <section class="section-padding">
+        <div class="flex space-between container">
+          <h3 class="categories-header">Featured Products</h3>
+          <ul class="center-y gap-L font-m">
+            <li class="text-primary">All</li>
+            <li>Vegetables</li>
+            <li>Fruits</li>
+            <li>Coffee & teas</li>
+            <li>Meat</li>
+          </ul>
+        </div>
+        <!-- -------------Featured Products header---------------- -->
+        <!-- -------------Featured Products item---------------- -->
+
+        <div class="center-y gap-LL">
+          <div>
+            <div class="center-y gap-mm Products-item">
+              <div class="Featured-Products-container">
+                <div class="Featured-Products">
+                  <img src="./public/image/section 2/veg 1.png" alt="" />
+                  <div class="padding-s">
+                    <h1>Vegetables</h1>
+                    <h3>Redish 500g</h3>
+                    <div class="center-y gap-sm">
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 2.svg"
+                        class="star"
+                      />
+                      <p>(4)</p>
+                    </div>
+                    <h6>By <span class="text-primary">Mr.food</span></h6>
+                    <div class="center-y space-between">
+                      <h2>$2.80</h2>
+                      <h5>$3.99</h5>
+                      <button>
+                        <img
+                          src="./public/icons/common/shopping-cart1.svg"
+                          alt=""
+                        />
+                        Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="Featured-Products">
+                  <img src="./public/image/section 2/veg 2.png" alt="" />
+                  <div class="padding-s">
+                    <h1>Vegetables</h1>
+                    <h3>Redish 500g</h3>
+                    <div class="center-y gap-sm">
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 2.svg"
+                        class="star"
+                      />
+                      <p>(4)</p>
+                    </div>
+                    <h6>By <span class="text-primary">Mr.food</span></h6>
+                    <div class="center-y space-between">
+                      <h2>$2.80</h2>
+                      <h5>$3.99</h5>
+                      <button>
+                        <img
+                          src="./public/icons/common/shopping-cart1.svg"
+                          alt=""
+                        />
+                        Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="Featured-Products">
+                  <img src="./public/image/section 2/veg 3.png" alt="" />
+                  <div class="padding-s">
+                    <h1>Vegetables</h1>
+                    <h3>Redish 500g</h3>
+                    <div class="center-y gap-sm">
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 2.svg"
+                        class="star"
+                      />
+                      <p>(4)</p>
+                    </div>
+                    <h6>By <span class="text-primary">Mr.food</span></h6>
+                    <div class="center-y space-between">
+                      <h2>$2.80</h2>
+                      <h5>$3.99</h5>
+                      <button>
+                        <img
+                          src="./public/icons/common/shopping-cart1.svg"
+                          alt=""
+                        />
+                        Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="Featured-Products">
+                  <img src="./public/image/section 2/veg 4.png" alt="" />
+                  <div class="padding-s">
+                    <h1>Vegetables</h1>
+                    <h3>Redish 500g</h3>
+                    <div class="center-y gap-sm">
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 2.svg"
+                        class="star"
+                      />
+                      <p>(4)</p>
+                    </div>
+                    <h6>By <span class="text-primary">Mr.food</span></h6>
+                    <div class="center-y space-between">
+                      <h2>$2.80</h2>
+                      <h5>$3.99</h5>
+                      <button>
+                        <img
+                          src="./public/icons/common/shopping-cart1.svg"
+                          alt=""
+                        />
+                        Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="Featured-Products">
+                  <img src="./public/image/section 2/veg5.png" alt="" />
+                  <div class="padding-s">
+                    <h1>Vegetables</h1>
+                    <h3>Redish 500g</h3>
+                    <div class="center-y gap-sm">
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 1.svg"
+                        class="star"
+                      />
+                      <img
+                        src="./public/icons/common/Star 2.svg"
+                        class="star"
+                      />
+                      <p>(4)</p>
+                    </div>
+                    <h6>By <span class="text-primary">Mr.food</span></h6>
+                    <div class="center-y space-between">
+                      <h2>$2.80</h2>
+                      <h5>$3.99</h5>
+                      <button>
+                        <img
+                          src="./public/icons/common/shopping-cart1.svg"
+                          alt=""
+                        />
+                        Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              class="arrow"
+              src="./public/icons/common/arrow-right.svg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- -------------Featured Products header---------------- -->
+        <!-- -------------Featured Products---------------- -->
+      </section>
+      <section class="section3 section-padding center-xy gap-mm container">
+        <!-- -------------section3--------------- -->
+        <div class="delivery-container box-color1">
+          <div>
+            <button class="Free-delivery-btn">Free delivery</button>
+            <h1>Free delivery over $50</h1>
+            <p>Shop $50 product and get free <br />delivery anywhre.</p>
+            <button class="btn-primary center-xy gap-sm">
+              Shop Now
+              <img src="./public/icons/common/li_arrow.svg" alt="" />
+            </button>
+          </div>
+          <img
+            class="Offer-img"
+            src="./public/image/section 3/Offer1-img.png"
+            alt=""
+          />
+        </div>
+        <div class="delivery-container box-color2">
+          <div>
+            <button class="ordar-btn">60% off</button>
+            <h1>Organic Food</h1>
+            <p>Save up to 60% off on your <br />first order</p>
+            <button class="btn-primary center-xy gap-sm">
+              Order Now
+              <img src="./public/icons/common/li_arrow.svg" alt="" />
+            </button>
+          </div>
+          <img
+            class="fruit-img"
+            src="./public/image/section 3/Offer2-img.png"
+            alt=""
+          />
+        </div>
+        <!-- -------------section3--------------- -->
+      </section>
+      <!-- -------------section4--------------- -->
+      <!-- -------------Daily Best Sells header--------------- -->
+      <section class="section4 container section-padding">
+        <div class="center-y gap-L space-between noWrap best-sell-header">
+          <div class="center-y gap-L">
+            <h1 class="categories-header">Daily Best Sells</h1>
+            <ul class="center-y gap-L font-m">
+              <li class="text-primary">Featured</li>
+              <li>Popular</li>
+              <li>New</li>
+            </ul>
+            <button class="expire-btn noWrap">
+              Expires in: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 : 56 : 21
+            </button>
+          </div>
+
+          <div>
+            <img class="arrow2" src="./public/icons/common/arrow-left.svg" />
+            <img class="arrow2" src="./public/icons/common/arrow-right.svg" />
+          </div>
+        </div>
+        <!-- -------------Daily Best Sells header--------------- -->
+        <!-- -------------Daily Best Sells container--------------- -->
+        <div class="center-y gap-L">
+          <div class="Best-Sells-container">
+            <div class="relative">
+              <img src="./public/image/section 4/pro 1.png" alt="" />
+              <button class="Free-delivery-btn save">Save 10%</button>
+              <div class="Best-Sells-Text-container">
+                <h6>Coffee & teas</h6>
+                <h1>Coffee 1kg</h1>
+                <div class="center-y gap-sm">
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 2.svg" class="star" />
+                  <p>(4)</p>
+                </div>
+              </div>
+              <div class="Best-Sells-Text-container">
+                <h4>By <span class="text-primary">Mr.food</span></h4>
+                <div class="center-y">
+                  <h2>$2.80</h2>
+                  <h5>$3.99</h5>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar bar-width1"></div>
+                </div>
+                <h3>Sold: 20/50</h3>
+                <button class="add-cart-btn center-xy gap-sm">
+                  <img
+                    src="./public/icons/common/li_shopping-cart.svg"
+                    alt=""
+                  />
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="Best-Sells-container">
+            <div class="relative">
+              <img src="./public/image/section 4/pro 2.png" alt="" />
+              <button class="best-deal-btn save">Best Deal</button>
+              <div class="Best-Sells-Text-container">
+                <h6>Meat</h6>
+                <h1>Halal Sausage 350g</h1>
+                <div class="center-y gap-sm">
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 2.svg" class="star" />
+                  <p>(4)</p>
+                </div>
+              </div>
+              <div class="Best-Sells-Text-container">
+                <h4>By <span class="text-primary">Mr.food</span></h4>
+                <div class="center-y">
+                  <h2>$2.80</h2>
+                  <h5>$3.99</h5>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar bar-width2"></div>
+                </div>
+                <h3>Sold: 7/20</h3>
+                <button class="add-cart-btn center-xy gap-sm">
+                  <img
+                    src="./public/icons/common/li_shopping-cart.svg"
+                    alt=""
+                  />
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="Best-Sells-container">
+            <div class="relative">
+              <img src="./public/image/section 4/pro 3.png" alt="" />
+              <button class="Free-delivery-btn save">Save 10%</button>
+              <div class="Best-Sells-Text-container">
+                <h6>Coffe & Teas</h6>
+                <h1>Green Tea 250g</h1>
+                <div class="center-y gap-sm">
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 2.svg" class="star" />
+                  <p>(4)</p>
+                </div>
+              </div>
+              <div class="Best-Sells-Text-container">
+                <h4>By <span class="text-primary">Mr.food</span></h4>
+                <div class="center-y">
+                  <h2>$2.80</h2>
+                  <h5>$3.99</h5>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar bar-width3"></div>
+                </div>
+                <h3>Sold: 32/50</h3>
+                <button class="add-cart-btn center-xy gap-sm">
+                  <img
+                    src="./public/icons/common/li_shopping-cart.svg"
+                    alt=""
+                  />
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="Best-Sells-container">
+            <div class="relative">
+              <img src="./public/image/section 4/pro 4.png" alt="" />
+              <button class="Free-delivery-btn save">Save 10%</button>
+              <div class="Best-Sells-Text-container">
+                <h6>By Mr.food</h6>
+                <h1>Onion 1kg</h1>
+                <div class="center-y gap-sm">
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 1.svg" class="star" />
+                  <img src="./public/icons/common/Star 2.svg" class="star" />
+                  <p>(4)</p>
+                </div>
+              </div>
+              <div class="Best-Sells-Text-container">
+                <h4>By <span class="text-primary">Mr.food</span></h4>
+                <div class="center-y">
+                  <h2>$2.80</h2>
+                  <h5>$3.99</h5>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar bar-width4"></div>
+                </div>
+                <h3>Sold: 2/10</h3>
+                <button class="add-cart-btn center-xy gap-sm">
+                  <img
+                    src="./public/icons/common/li_shopping-cart.svg"
+                    alt=""
+                  />
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="register-container">
+            <h1 class="text-align off-text">10% OFF</h1>
+            <h4 class="text-align">
+              For new member sign up at <br />
+              the first time
+            </h4>
+            <label for="email">Email address*</label>
+            <div class="center-y input-container2 gap-m">
+              <img src="./public/icons/common/mail.svg" />
+              <input type="email" placeholder="johndoe@gmail.com" id="email" />
+            </div>
+            <label for="password">Password*</label>
+            <div class="center-y input-container2 gap-m">
+              <img src="./public/icons/common/key.svg" />
+              <input
+                type="password"
+                placeholder="Maximum 8 characters"
+                id="password"
+              />
+            </div>
+            <button class="add-cart-btn center-xy gap-sm">Register Now</button>
+          </div>
+        </div>
+
+        <!-- -------------Daily Best Sells container--------------- -->
+        <!-- -------------section4--------------- -->
+      </section>
+      <!-- -------------section5--------------- -->
+
+      <section class="section5">
+        <div class="container section-padding center-y space-between">
+          <!-- -------------top sell container--------------- -->
+          <div class="top-sell-container">
+            <h1>Top Sells</h1>
+            <img class="pro-bar" src="./public/icons/common/progress-bar.svg" />
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 1.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 7.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 6.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+          </div>
+          <!-- -------------top sell container--------------- -->
+          <!-- -------------top rated container--------------- -->
+          <div class="top-sell-container">
+            <h1>Top Rated</h1>
+            <img class="pro-bar" src="./public/icons/common/progress-bar.svg" />
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 5.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 7.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 4.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+          </div>
+          <!-- -------------top rated container--------------- -->
+          <!-- -------------trending items container--------------- -->
+          <div class="top-sell-container">
+            <h1>Trending Items</h1>
+            <img class="pro-bar" src="./public/icons/common/progress-bar.svg" />
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 3.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 2.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 1.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+          </div>
+          <!-- -------------trending items container--------------- -->
+          <!-- -------------recently added container--------------- -->
+          <div class="top-sell-container">
+            <h1>Recently Added</h1>
+            <img class="pro-bar" src="./public/icons/common/progress-bar.svg" />
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 4.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 3.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+            <!-- -------------product box------------ -->
+            <div class="center-y product-box-container">
+              <div class="top-sell-pro-container">
+                <img src="./public/image/section 5/vegi 6.png" />
+              </div>
+              <div class="top-sell-text">
+                <div>
+                  <h3>Orange 1kg</h3>
+                  <div class="center-y gap-ss">
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 1.svg" class="star" />
+                    <img src="./public/icons/common/Star 2.svg" class="star" />
+                    <p>(4)</p>
+                  </div>
+                  <div class="center-y gap-m price-container">
+                    <h2 class="text-primary font-size">$2</h2>
+                    <h5>$3.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------product box------------ -->
+          </div>
+          <!-- -------------recently added container--------------- -->
+        </div>
+
+        <!-- -------------section5--------------- -->
+      </section>
+      <section class="section6">
+        <!-- -------------section6--------------- -->
+        <div class="faster-shop-container section-padding relative">
+          <div>
+            <h1>
+              Shop Faster With <br />
+              Groceyish App
+            </h1>
+            <p>Available on both IOS & Android</p>
+            <div class="center-y">
+              <img src="./public/image/section 6/image 13.png" />
+              <img src="./public/image/section 6/image 14.png" />
+            </div>
+          </div>
+          <div>
+            <img class="phn-image1" src="./public/image/section 6/X - 2.png" />
+            <img class="phn-image2" src="./public/image/section 6/X - 1.png" />
+          </div>
+        </div>
+
+        <!-- -------------section6--------------- -->
+      </section>
+    </main>
+    <footer class="section-padding container">
+      <!-- ------------------footer---------------- -->
+      <!-- ------------------Refundable container---------------- -->
+      <div class="Refundable-container">
+        <div class="center-y">
+          <img src="./public/image/footer/big1.svg" alt="" />
+          <div class="Refundable-text">
+            <h4>Best Prices & Deals</h4>
+            <p>
+              Don’t miss our daily amazing <br />
+              deals and prices
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------Refundable container---------------- -->
+      <!-- ------------------footer---------------- -->
+    </footer>
+  </body>
+</html>
