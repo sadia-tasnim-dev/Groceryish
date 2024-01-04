@@ -570,8 +570,9 @@ body {
       rgba(197, 234, 217, 0.78)
     ),
     url("./public/image/section 6/bg-design.png");
-  padding-left: 120px;
-  padding-top: 237px;
+}
+.faster-shop-container > div {
+  height: 100%;
 }
 .faster-shop-container h1 {
   font-size: 55px;
@@ -585,15 +586,10 @@ body {
   padding-bottom: 65px;
 }
 
-.phn-image1 {
+.phn-image {
   position: absolute;
   top: 0;
-  right: 0;
-}
-.phn-image2 {
-  position: absolute;
-  top: 0;
-  right: 0;
+  right: 260px;
 }
 
 /* -----footer----- */
