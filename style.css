@@ -55,6 +55,10 @@ body {
 .font-m {
   font-weight: 600;
 }
+.font-mm {
+  font-size: 16px;
+  font-weight: 800;
+}
 .gap-ss {
   gap: 3px;
 }
@@ -596,7 +600,65 @@ body {
 .Refundable-container {
   padding: 25px;
 }
+.bordar-container {
+  border-bottom: 2px solid var(--white);
+}
 .Refundable-text {
   margin-left: 18px;
+}
+.Refundable-text p {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--gray);
+  padding-top: 6px;
+  margin-bottom: 14px;
+}
+.official-info {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.official-info ul {
+  margin-top: 35px;
+}
+.official-info ul li {
+  margin-bottom: 30px;
+}
+.Account1 {
+  margin-top: 40px;
+}
+.Account2 {
+  margin-top: 40px;
+}
+.Account3 {
+  margin-top: 40px;
+}
+.Account1 ul {
+  margin-top: 38px;
+  margin-bottom: 85px;
+}
+.Account1 ul li {
+  margin-bottom: 15px;
+}
+.Account2 ul {
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+.Account2 ul li {
+  margin-bottom: 15px;
+}
+.Account3 ul {
+  margin-top: 38px;
+}
+.Account3 ul li {
+  margin-bottom: 15px;
+}
+.copyright-container {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.social-image-container {
+  border-radius: 50%;
+  background-color: var(--primary);
+  padding: 7px;
 }
 /* -----footer----- */
